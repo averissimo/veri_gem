@@ -6,8 +6,7 @@ Gem::Specification.new do |s|
   s.description = "Libraries "
   s.authors     = ["André Veríssimo"]
   s.email       = 'afsverissimo@gmail.com'
-  s.files       = ["lib/hash_libs.rb"]
-  s.homepage    =
-    'http://github.com/afsverissimo/veri_gem'
-  s.license       = 'GPLv3'
+  s.files       = ["lib/veri.rb"]
+  s.homepage    = 'http://github.com/afsverissimo/veri_gem'
+  s.license     = 'GPLv3'
 end
