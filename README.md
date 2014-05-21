@@ -10,3 +10,24 @@ Includes hash functions that extend standard library
 
 ### License
 Released under GNU General Public License, Version 3
+
+## How to use
+
+Install by adding the line below to your Gemfile
+
+    gem 'veri', github: 'averissimo/veri_gem'
+
+Or by installing it manually
+
+    $ git clone https://github.com/averissimo/veri_gem.git
+    $ gem build veri.gemspec
+    $ gem install ./veri-0.0.1.gem
+(replace _"veri-0.0.1.gem"_ by corresponding version)
+
+## Dependencies
+
+- ostruct: OpenStruct library
+
+## Testing
+
+    $ rake test
